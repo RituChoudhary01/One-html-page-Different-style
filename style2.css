@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left:20px;
+}
+.wrapper{
+    background-color: rgb(201, 61, 70);
+    padding: 10px;
+    width:80vh;
+    margin: auto;
+    box-shadow: 2px 2px 210px 105px rgb(228, 228, 228);
+
+}
+h1{
+    color:white;
+    font-size: 60px;
+}
+h1+p{
+    color:white;
+    font-size: 30px;
+}
+.section{
+   background-color:white;
+   display: flex;
+   margin: 10px;
+   margin-bottom: 0px;
+
+}
+.para{
+    width:2000px;
+}
+.para>h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(201, 61, 70);
+    font-size: 28px;
+}
+.para>p{
+    color:black;
+    font-size: 14px;
+}
+.para>p>a{
+ margin: 0px;
+}
+.nav>span{
+    display: inline-block;
+    height:40px;
+    width:150px;
+    text-align: center;
+  border-radius: 20px;
+
+    background-color: brown;
+    border:1px solid rgb(238, 24, 24);
+    margin:5px;
+    padding: 8px;
+}
+#second{
+    background-color: white;
+}
+#second>a{
+    color:rgb(201, 61, 70);
+}
+span>a{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+    font-weight: 600;
+}
+h2{
+    color:rgb(201, 61, 70);
+    margin:10px 20px;
+}
+.side-bar{
+    background-color: rgb(234, 178, 184);
+    margin: 10px;
+    margin-top:0px;
+    /* height:120px; */
+}
+.side-bar>h3{
+    color:rgb(201, 61, 70);
+   padding: 20px;
+}
+.side-bar>p{
+    color:rgb(201, 61, 70);
+    font-size: 16px;
+    padding-bottom: 20px; 
+}
+footer{
+    color:white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size:14px;
+}
